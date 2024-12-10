@@ -29,7 +29,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url('portfolio/Images/Intro-bg.jpg');
+    background-image: url('/Images/Intro-bg.jpg');
 }
 
 .header-sub-container {
@@ -49,7 +49,7 @@ a .header-logo-container {
     border-radius: 15px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url('portfolio/Images/MBlack60.png');
+    background-image: url('/Images/MBlack60.png');
     background-color: var(--secondary);
     box-shadow: 0 0 10px var(--tertiary);
     transition: all 0.6s ease-in-out;
@@ -57,7 +57,7 @@ a .header-logo-container {
 
 a:hover .header-logo-container {
     transform: scale(1.1);
-    background-image: url('portfolio/Images/MWhite60.png');
+    background-image: url('/Images/MWhite60.png');
     background-color: var(--primary);
     box-shadow: 0 0 10px var(--tertiary);
     transition: all 0.6s ease-in-out;
@@ -193,7 +193,7 @@ a:hover .header-logo-container {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        background-image: url('portfolio/Images/M.png');
+        background-image: url('/Images/M.png');
         background-color: var(--secondary);
         box-shadow: 0 0 10px var(--tertiary);
     }
